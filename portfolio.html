@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1">
+    <title >Hello This is sagar</title>
+        <link rel="shortcut icon" href="images/7036168.jpg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div id="header">
+        <header> <div class="container">
+          <img src="images/Sagar-designstyle-boots-s.png"  class="logo">  <nav>
+                
+                <ul>  
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                
+            </nav>
+               <div class="header-text">
+                <p >
+                    Full Stack Developer
+                </p>
+                <h1>Hi, I'm <span>Sagar<br> kumar</span> from India</h1>
+            
+            </div> 
+        
+        </div>
+   </header>
+   
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="raw">
+                
+                 <div class="about-col-1">
+                    <img src="images/IMG-20220503-WA0044.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi I am a full stack Developer I am searching for a Internship to improve 
+                        my skills and knowladge
+                    </p>
+                         <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('Skills')">Skills</div>
+                            <div class="tab-links"onclick="opentab('Experience')">Experience</div>
+                            <div class="tab-links"onclick="opentab('Education')">Education</div>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Front End</span></spanf></span><br>Designer web/app interfaces</li>
+                                <li><span>Web Development</span><br>Desig</li>desinging web/app interfaces</li>
+                                <li><span>App Development</span><br>Learning DSA</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designer web/app interfaces</li>
+                                <li><span>Web Development</span><br>Desig</li>desinging web/app interfaces</li>
+                                <li><span>App Development</span><br>Learning DSA</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designer web/app interfaces</li>
+                                <li><span>Web Development</span><br>Desig</li>desinging web/app interfaces</li>
+                                <li><span>App Development</span><br>Learning DSA</li>
+                            </ul>
+                        </div>
+
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script>
+       
+       var tablinks=document.getElementsByClassName("tab-links");
+       var tabcontents=document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }
+       }
+
+    </script>
+</body>
+</html>
