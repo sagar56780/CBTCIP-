@@ -1,0 +1,165 @@
+body
+{ 
+    
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    height: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+
+    background-image: url(images/wp4166603-venom-4k-wallpapers.jpg);
+   
+    width: 100%;
+    height: 100vh;
+   
+    background-size: cover;
+    background-position: center;
+}
+.container{
+
+    padding: 1em;
+    font: bolder; 
+    font-size: larger;
+    
+
+}
+.container img{
+    margin: 20px;
+}
+nav{
+    display: flex;
+    border: solid white;
+    padding:0px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 250px;
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    position: relative; 
+    text-shadow: #FFC600;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px ;
+    font: 900;
+    text-shadow: 1px 1px 2px rgb(235, 229, 35), 0 0 1em rgb(3, 3, 57), 0 0 0.2em rgb(142, 233, 14);
+    
+  
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #FFC600;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 10%;
+    font-size: 20%px;
+    display: inline;
+}
+.header-text p{
+    margin-left: 15px;
+}
+.header-text h1{
+ 
+    width: 50%;
+    font-size: 60px;
+    margin-top: 5px;
+    border-radius: 9px;
+    padding: 10px;
+    margin-right: 20%;
+
+
+}
+.header-text h1 span{
+    color: #fddf72;
+}
+/* ----------about--------- */
+#about{
+    margin-top: 200px;
+
+    color: #ababab;
+}
+.raw{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 30%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about-col-2{
+    margin: 500px;
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff04ff;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+
+
+}
+.tab-contents li span{
+    color: rebeccapurple;
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
