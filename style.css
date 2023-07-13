@@ -1,10 +1,16 @@
 body
-{ 
-    
+{  
+    position: absolute;
+    position:fixed;
+
+    background-image: url(images/wp4166603-venom-4k-wallpapers.jpg);
     width: 100%;
+    height: 100%;
+   
+    background-size: cover;
     background-color: black;
     color: #fff;
-    height: 100%;
+ 
 }
 
 *{
@@ -13,7 +19,7 @@ body
 }
 #header{
 
-    background-image: url(images/wp4166603-venom-4k-wallpapers.jpg);
+   
    
     width: 100%;
     height: 100vh;
@@ -34,8 +40,10 @@ body
 }
 nav{
     display: flex;
+  
     border: solid white;
-    padding:0px;
+    width: 40%;
+     padding:0px;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
