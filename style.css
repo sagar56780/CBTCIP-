@@ -1,13 +1,7 @@
 body
 {  
-    position: absolute;
-    position:fixed;
-
-    background-image: url(images/wp4166603-venom-4k-wallpapers.jpg);
-    width: 100%;
-    height: 100%;
    
-    background-size: cover;
+  
     background-color: black;
     color: #fff;
  
@@ -18,11 +12,11 @@ body
     margin: 0;
 }
 #header{
-
-   
-   
-    width: 100%;
-    height: 100vh;
+    background-image: linear-gradient(
+        to right ,
+        hwb(0 22% 77%),
+        rgba(0, 0, 0, 0.1)
+      ), url("images/wp4166603-venom-4k-wallpapers.jpg");
    
     background-size: cover;
     background-position: center;
@@ -42,11 +36,11 @@ nav{
     display: flex;
   
     border: solid white;
-    width: 40%;
+    width: 100%;
      padding:0px;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 .logo{
     width: 250px;
@@ -110,7 +104,7 @@ nav ul li a:hover::after{
     color: #ababab;
 }
 .raw{
-    display: flex;
+    display: auto;
     justify-content:space-between;
     flex-wrap: wrap;
 }
