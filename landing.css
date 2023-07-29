@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    
+    height: 100vh;
+    width: 100vw;
+    background: #fffb00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}    
+header{  
+    padding: 2em 0em 2em 0em;
+    display: flex;
+    box-shadow: inset 2px 2px 30px ;
+    justify-content: end;
+    height: 20%;
+    width: 100vw;
+    font-size: 20px;
+    background: #f3ff08d6;
+}
+.nav,a{
+    color: rgb(3, 3, 3);
+    margin-right: 2em;
+    text-decoration: none;
+}
+
+
+.Intrusted{
+    background: rgb(255, 255, 251);
+    margin: 1em 0em 0em 2em ;
+    font-size: 220%;
+    background-color: white;
+    padding: 0.1em 1em;
+    border-radius: 2em;
+    box-shadow: inset 2px 2px 3px black;
+}
+.contact{
+    background: rgb(255, 255, 255);
+    margin: 1em 0em 0em 2em ;
+    font-size: 220%;
+    padding: 0.1em 1em;
+    border-radius: 2em;
+    box-shadow: inset 2px 2px 3px black;
+}
+.contact:hover{
+    background: #bfbe92;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e2e4af, #fffd96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Intrusted:hover{
+    background: #b8b8a9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fbfae7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fcfbcd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.cypher{
+    margin: 4em;
+}
+.Hero img{
+    height: 50%;
+    width: 50%;
+}
