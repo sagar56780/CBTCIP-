@@ -28,39 +28,43 @@ header{
     text-decoration: none;
 }
 
+button{
+    border: solid black .1em;
+    box-shadow: inset 1px 1px 20px rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    font-size: 120%;
 
-.Intrusted{
-    background: rgb(255, 255, 251);
-    margin: 1em 0em 0em 2em ;
-    font-size: 220%;
-    background-color: white;
-    padding: 0.1em 1em;
-    border-radius: 2em;
-    box-shadow: inset 2px 2px 3px black;
 }
 .contact{
-    background: rgb(255, 255, 255);
-    margin: 1em 0em 0em 2em ;
-    font-size: 220%;
-    padding: 0.1em 1em;
-    border-radius: 2em;
-    box-shadow: inset 2px 2px 3px black;
+    
+    
+ 
+    width: 100%;
+    border-radius: 5em;
+       
 }
-.contact:hover{
+.internship{
+  
+    border-radius: 5em;
+
+    
+}
+button:hover{
     background: #bfbe92;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #e2e4af, #fffd96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.Intrusted:hover{
-    background: #b8b8a9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffffff, #fbfae7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffffff, #fcfbcd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}
+
 .cypher{
+    
+    font-size: 2em;
     margin: 4em;
+   
 }
-.Hero img{
-    height: 50%;
-    width: 50%;
+img{
+    box-shadow: inset 2px 2px 20px black;
+    margin: 2em;
+   
 }
