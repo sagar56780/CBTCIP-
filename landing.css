@@ -4,7 +4,7 @@
 }
 .container{
     display: flex;
-    
+    flex: 1;
     height: 100vh;
     width: 100vw;
     background: #fffb00;  /* fallback for old browsers */
@@ -29,42 +29,98 @@ header{
 }
 
 button{
-    border: solid black .1em;
-    box-shadow: inset 1px 1px 20px rgb(0, 0, 0);
-    height: 100%;
-    width: 100%;
+    border: solid  rgb(255, 255, 255);
+    background-color:  rgb(230,37,123);
+    height: 50%;
+    width: 50%;
     border-radius: 40px;
     font-size: 120%;
-
+    box-shadow: 2px 2px 30px ;
 }
+
 .contact{
-    
-    
- 
-    width: 100%;
-    border-radius: 5em;
-       
+    width: 71%;
+    border-radius: 5em;  
 }
 .internship{
-  
     border-radius: 5em;
-
-    
 }
 button:hover{
-    background: #bfbe92;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #e2e4af, #fffd96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color:  rgb(227, 227, 227);
+}
+button p:hover{
+    color: rgb(230,37,123);
 }
 
 .cypher{
-    
+   
+    width: 50%;
     font-size: 2em;
     margin: 4em;
-   
 }
-img{
+.hero{
     box-shadow: inset 2px 2px 20px black;
     margin: 2em;
+}
+.section2{
+    display: flex;
+    box-shadow:inset 2px 2px 30px black;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.section2 h1{
+    font-size:140% ;
+    box-shadow:2px 2px 30px black;
+}
+.page2{ 
+
+    margin-top: 2em;
+    font-size: 2em;
+ 
+}
+.banner{
+    box-shadow: inset 2px 2px 20px black;
+    margin: 2em;
+}
+.banner img{
+    margin: 50px;
+}
+.section3{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(254,252,239);
+}
+.page3 h2{
+    font-size: 200%;
+}
+.page3{
+    
+   margin: 30px;
+   height: 100%;
+   width: 50%;
+}
+.page3 p{
+    font-size: 150%;
+}
+.page3 h1{
+    font-size: 5em;
+    color: rgb(253,116,134);
+}
+.featcher {
+
+    margin: 20px;
+    box-shadow: inset 2px 2px 30px black;
    
 }
+.featcher img{
+    margin: 20px;
+}
+.page3 ul li{
+    font-size: 2em;
+}
+
+
+
