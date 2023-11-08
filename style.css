@@ -6,12 +6,58 @@ body
     color: #fff;
  
 }
+.su
+.line{
+    background-color: #fddf72;
+    height: 10px;
+    width: 10px;
+    
+}
+#msg{
+    height: 5em;
+}
 
+.star{
+    background-color: rgb(1, 1, 1);
+
+    border-radius:50px;
+    animation-name: identifier;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes identifier {
+    
+
+
+    
+}
+#Name{
+    background-color: ;
+    color: #fddf72;
+}
+
+
+.slide-show{
+    
+    background-size:cover;
+    background-color: #000000;
+ 
+}
+
+svg:hover{
+    transform: translatey(-10px);
+    transform: scale(1.5);
+    transition: all;
+    transition-duration: 1s;
+}
 *{
     padding: 0;
     margin: 0;
 }
 #header{
+    
     background-image: linear-gradient(
     
         to right ,
@@ -150,7 +196,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff04ff;
+    background: rgb(255, 195, 0);
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -166,7 +212,7 @@ nav ul li a:hover::after{
 
 }
 .tab-contents li span{
-    color: rebeccapurple;
+    color: rgb(255, 195, 0);
     font-size: 14px;
 }
 .tab-contents{
@@ -182,4 +228,9 @@ nav ul li a:hover::after{
 }
 .container nav{
     margin-top: 30px;
+}
+footer{
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
 }
